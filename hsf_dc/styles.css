@@ -1,0 +1,30 @@
+/* 
+* Honda Steed forum - discussion counter (HSF-DC) v.1.0
+* Author: asg - http://hondasteed.org.ru/forumnew/viewtopic.php?f=3&t=11085
+*/
+
+body {
+   font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+   overflow: hidden;
+   min-width: 15px;
+   min-height: 15px;
+   white-space: nowrap;
+   text-align: center;
+   background-color: #ffffff;
+}
+
+a {
+   font-weight: bold;
+   font-size: 14px;
+   text-decoration: none;
+   border-bottom: 1px solid;
+   padding-bottom: 1px;
+}
+
+span {
+   font-size: 12px;
+}
+
+.no_underscore {
+   border-bottom: none;
+}

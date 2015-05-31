@@ -1,0 +1,28 @@
+<html>
+<head>
+    <title>HSF-DC: Honda Steed forum - discussion counter</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+
+<body>
+
+Проверять новые комментарии:
+<select id="interval">
+ <option value="0">0 (не проверять)</option>
+ <option value="1">1 раз в минуту</option>
+ <option value="5">1 раз в 5 минут</option>
+ <option value="30">1 раз в 30 минут</option>
+ <option value="60">1 раз в час</option>
+ <option value="1440">1 раз в сутки</option>
+</select>
+<br>
+<label>Звуковое оповещение при новом комментарии:<input id="audio_checkbox" checked type="checkbox"></label>
+
+<br>
+<div id="status"></div>
+<button id="save">Сохранить настройки</button>
+</body>
+
+<script src="options.js"></script>
+
+</html>
