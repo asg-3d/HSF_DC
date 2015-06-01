@@ -49,7 +49,7 @@ function onAlarm() {
 		// Ищем на этой странице позицию начала подстроки 'unread#unread' (это часть ссылки на последнее непрочитанное сообщение)
 		var classStringPosition = pageText.indexOf('unread#unread');
 		// Если такой подстроки нет - выходим
-		if (classStringPosition == -1) return;
+		if (classStringPosition == -1) return chrome.browserAction.setBadgeText({ text: '' });;
 
 		// Находим позицию символа " - конец ссылки
 		var quotePositionStart = pageText.indexOf('"', classStringPosition);
